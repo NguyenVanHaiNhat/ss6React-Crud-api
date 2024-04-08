@@ -1,0 +1,128 @@
+{
+  "book": [
+    {
+      "id": "1",
+      "code": "BO-1234",
+      "name": "kaka",
+      "category": {
+        "id": "1",
+        "name": "Trinh tham"
+      },
+      "date": "2024-12-15",
+      "quantity": "15"
+    },
+    {
+      "id": "2",
+      "code": "BO-2564",
+      "name": "laos",
+      "category": {
+        "id": "2",
+        "name": "Tieu thuyet"
+      },
+      "date": "2024-12-15",
+      "quantity": "12"
+    },
+    {
+      "id": "3",
+      "code": "BO-1987",
+      "name": "uyww",
+      "category": {
+        "id": "1",
+        "name": "Trinh tham"
+      },
+      "date": "2024-12-15",
+      "quantity": "11"
+    },
+    {
+      "id": "0370",
+      "code": "BO-9999",
+      "name": "khanhx1",
+      "date": "2022-12-12",
+      "quantity": 12,
+      "category": {
+        "id": "2",
+        "name": "Tieu thuyet"
+      }
+    },
+    {
+      "id": "fbac",
+      "code": "BO-8888",
+      "name": "laos",
+      "date": "2001-12-12",
+      "quantity": 1,
+      "category": {
+        "id": "2",
+        "name": "Tieu thuyet"
+      }
+    },
+    {
+      "code": "BO-0987",
+      "name": "hahahaha",
+      "date": "2000-12-12",
+      "quantity": 12,
+      "category": {
+        "id": "3",
+        "name": "Kinh di"
+      },
+      "id": "Hj43TLO"
+    },
+    {
+      "code": "BO-9992",
+      "name": "khanhkhanh",
+      "date": "2000-12-12",
+      "quantity": 12,
+      "category": {
+        "id": "2",
+        "name": "Tieu thuyet"
+      },
+      "id": "eICdFZX"
+    },
+    {
+      "code": "BO-1234",
+      "name": "num1",
+      "date": "2011-11-11",
+      "quantity": 1,
+      "category": {
+        "id": "1",
+        "name": "Trinh tham"
+      },
+      "id": "Et4Ok7l"
+    },
+    {
+      "code": "BO-8732",
+      "name": "khanh",
+      "date": "2000-03-15",
+      "quantity": 5,
+      "category": {
+        "id": "3",
+        "name": "Kinh di"
+      },
+      "id": "_dUbL4l"
+    },
+    {
+      "code": "BO-1234",
+      "name": "abc",
+      "date": "2022-12-12",
+      "quantity": 1,
+      "category": {
+        "id": "1",
+        "name": "Trinh tham"
+      },
+      "id": "-Dn5XK4"
+    }
+  ],
+  "category": [
+    {
+      "id": "1",
+      "name": "Trinh tham"
+    },
+    {
+      "id": "2",
+      "name": "Tieu thuyet"
+    },
+    {
+      "id": "3",
+      "name": "Kinh di"
+    }
+  ]
+}
