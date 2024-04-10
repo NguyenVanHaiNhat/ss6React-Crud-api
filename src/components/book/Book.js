@@ -3,6 +3,7 @@ import * as BookService from "../service/BookService"
 import {Link} from "react-router-dom";
 import moment from "moment";
 import * as CategoryService from "../service/CategoryService"
+import axios from "axios";
 export function Book() {
     const [books, setBooks] = useState([]);
     const [search, setSearch] = useState("");
@@ -54,7 +55,6 @@ export function Book() {
     }, []);
 
 
-
     return(
 
         <>
@@ -98,6 +98,9 @@ export function Book() {
                         <th scope="col">Thể loại</th>
                         <th scope="col">Ngày nhập</th>
                         <th scope="col">Số lượng</th>
+
+                        <th scope="col">Update</th>
+                        <th scope="col">Delete</th>
                     </tr>
                     </thead>
                     <tbody>
@@ -110,6 +113,17 @@ export function Book() {
                                 <td>{book.category.name}</td>
                                 <td>{formatDate(book.date)}</td>
                                 <td>{book.quantity}</td>
+                                <td>
+                                    <button><Link to={'edit/' + book.id}>Update</Link></button>
+                                </td>
+                                <td>
+                                    <button onClick={() => {
+                                        axios.delete('http://localhost:8080/book/' + book.id).then(res => {
+                                            alert('Xóa thành công!!!');
+                                            getAllBook();
+                                        })
+                                    }}>Delete</button>
+                                </td>
                             </tr>
                         ))
                     }

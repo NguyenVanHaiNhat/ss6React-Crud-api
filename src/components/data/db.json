@@ -3,35 +3,18 @@
     {
       "id": "1",
       "code": "BO-1234",
-      "name": "kaka",
-      "category": {
-        "id": "1",
-        "name": "Trinh tham"
-      },
-      "date": "2024-12-15",
+      "name": "kakaka",
+      "category": "{\"id\":\"2\",\"name\":\"Tieu thuyet\"}",
+      "date": "2024-02-15",
       "quantity": "15"
     },
     {
       "id": "2",
       "code": "BO-2564",
-      "name": "laos",
-      "category": {
-        "id": "2",
-        "name": "Tieu thuyet"
-      },
-      "date": "2024-12-15",
+      "name": "laoss",
+      "category": "\"{\\\"id\\\":\\\"2\\\",\\\"name\\\":\\\"Tieu thuyet\\\"}\"",
+      "date": "2024-02-13",
       "quantity": "12"
-    },
-    {
-      "id": "3",
-      "code": "BO-1987",
-      "name": "uyww",
-      "category": {
-        "id": "1",
-        "name": "Trinh tham"
-      },
-      "date": "2024-12-15",
-      "quantity": "11"
     },
     {
       "id": "0370",
@@ -50,32 +33,7 @@
       "name": "laos",
       "date": "2001-12-12",
       "quantity": 1,
-      "category": {
-        "id": "2",
-        "name": "Tieu thuyet"
-      }
-    },
-    {
-      "code": "BO-0987",
-      "name": "hahahaha",
-      "date": "2000-12-12",
-      "quantity": 12,
-      "category": {
-        "id": "3",
-        "name": "Kinh di"
-      },
-      "id": "Hj43TLO"
-    },
-    {
-      "code": "BO-9992",
-      "name": "khanhkhanh",
-      "date": "2000-12-12",
-      "quantity": 12,
-      "category": {
-        "id": "2",
-        "name": "Tieu thuyet"
-      },
-      "id": "eICdFZX"
+      "category": "{\"id\":\"2\",\"name\":\"Tieu thuyet\"}"
     },
     {
       "code": "BO-1234",
